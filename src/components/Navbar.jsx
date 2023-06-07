@@ -1,5 +1,7 @@
 import React from 'react'
 import logo from '../assets/logo.png'
+import { Studio } from './Studio'
+import { Footer} from './Footer'
 import { UserIcon } from '@heroicons/react/24/outline'
 import { HeartIcon } from '@heroicons/react/24/outline'
 import { ShoppingBagIcon } from '@heroicons/react/24/outline'
@@ -19,48 +21,250 @@ export const Navbar = () => {
                 <div className="row" style={{ display: 'flex', flexDirection: 'row' }}>
 
 
-                    <div className="col" style={{ textAlign: 'center', textTransform: 'uppercase', paddingRight: '2rem', }}>
+                    <div className="col" style={{ textAlign: 'center', paddingRight: '2rem', }}>
 
-                        <ul className="navlst" style={{ color: 'black', textDecoration: 'none', listStyle: 'none', lineHeight: '2rem', display: 'flex', marginLeft: '1rem' }} >
+                        <ul className="navlst" style={{ color: 'black', textDecoration: 'none', listStyle: 'none', lineHeight: '2rem', display: 'flex', marginLeft: '1rem' ,textAlign:'left' }} >
                             <li >
                                 <div class="dropdown">
                                     <span>MEN</span>
                                     <div class="dropdown-content">
-                                        <div className="row" style={{display:'flex',flexDirection:'row'}}>
-                                            <div className="col">
-                                            <p>Shirt</p>
-                                        <p>Shirt</p>
-                                        <p>Shirt</p>
-                                        <p>Shirt</p>
-                                        <p>Shirt</p>
+                                        <div className="row" style={{ display: 'flex', flexDirection: 'row' }}>
+                                            <div className="col" style={{ marginLeft: '.5rem', lineHeight: '.5rem', fontSize: '.8rem'}}>
+                                                <p style={{ color: 'red', fontSize: '.8rem' }}>Topwear</p>
+                                                <p>FormalShirt</p>
+                                                <p>casualShirt</p>
+                                                <p>TShirt</p>
+                                                <p>tops</p>
                                             </div>
-                                            <div className="col" style={{marginLeft:'2rem',lineHeight:'1rem'}}>
-                                            <p>Shirt</p>
-                                        <p>Shirt</p>
-                                        <p>Shirt</p>
-                                        <p>Shirt</p>
-                                        <p>Shirt</p>
+                                            <div className="col" style={{ marginLeft: '2rem', lineHeight: '.5rem', fontSize: '.8rem' }}>
+                                                <p style={{ color: 'red', fontSize: '.8rem' }}>Bottomwear</p>
+                                                <p>Jeans</p>
+                                                <p>shorts</p>
+                                                <p>Trousers</p>
+                                                <p>Shirt</p>
                                             </div>
-                                            <div className="col">
-                                            <p>Shirt</p>
-                                        <p>Shirt</p>
-                                        <p>Shirt</p>
-                                        <p>Shirt</p>
-                                        <p>Shirt</p>
+                                            <div className="col" style={{ marginLeft: '2rem', lineHeight: '.5rem', fontSize: '.8rem' }}>
+                                                <p style={{ color: 'red', fontSize: '.8rem' }}>footwear</p>
+                                                <p>Formalshoes</p>
+                                                <p>Flats</p>
+                                                <p>Heels</p>
+                                                <p>Boots</p>
                                             </div>
-                                            <div className="col"></div>
-                                            <div className="col"></div>
+                                            <div className="col" style={{ marginLeft: '2rem', lineHeight: '.5rem', fontSize: '.8rem' }}>
+                                                <p style={{ color: 'red', fontSize: '.8rem' }}>Beautyandpersonalcare</p>
+                                                <p>Makeup</p>
+                                                <p>Skincare</p>
+                                                <p>Fragrances</p>
+                                                <p>Lipsticks</p>
+                                            </div>
+                                            <div className="col" style={{ marginLeft: '2rem', lineHeight: '.5rem', marginRight: '.5rem', fontSize: '.8rem' }}>
+                                                <p style={{ color: 'red', fontSize: '.8rem' }}>Gadgets</p>
+                                                <p>Speaker</p>
+                                                <p>Headphones</p>
+                                                <p>Fitness gadgets</p>
+                                                <p>watches</p>
+                                            </div>
                                         </div>
-                                        
                                     </div>
                                 </div>
-
                             </li>
-                            <li><a herf='#'>women</a></li>
-                            <li><a herf='#'>kids</a></li>
-                            <li><a herf='#'>home & living</a></li>
-                            <li><a herf='#'>beauty</a></li>
-                            <li><a herf='#'>studio</a></li>
+
+                            <li>
+                                <div class="dropdown">
+                                    <span>WOMEN</span>
+                                    <div class="dropdown-content">
+                                        <div className="row" style={{ display: 'flex', flexDirection: 'row' }}>
+                                            <div className="col" style={{ marginLeft: '.5rem', lineHeight: '.5rem', fontSize: '.8rem' }}>
+                                                <p style={{ color: 'red', fontSize: '.8rem' }}>Topwear</p>
+                                                <p>FormalShirt</p>
+                                                <p>casualShirt</p>
+                                                <p>TShirt</p>
+                                                <p>tops</p>
+                                            </div>
+                                            <div className="col" style={{ marginLeft: '2rem', lineHeight: '.5rem', fontSize: '.8rem' }}>
+                                                <p style={{ color: 'red', fontSize: '.8rem' }}>Bottomwear</p>
+                                                <p>Jeans</p>
+                                                <p>shorts</p>
+                                                <p>Trousers</p>
+                                                <p>Shirt</p>
+                                            </div>
+                                            <div className="col" style={{ marginLeft: '2rem', lineHeight: '.5rem', fontSize: '.8rem' }}>
+                                                <p style={{ color: 'red', fontSize: '.8rem' }}>footwear</p>
+                                                <p>Formalshoes</p>
+                                                <p>Flats</p>
+                                                <p>Heels</p>
+                                                <p>Boots</p>
+                                            </div>
+                                            <div className="col" style={{ marginLeft: '2rem', lineHeight: '.5rem', fontSize: '.8rem' }}>
+                                                <p style={{ color: 'red', fontSize: '.8rem' }}>Beauty and personalcare</p>
+                                                <p>Makeup</p>
+                                                <p>Skincare</p>
+                                                <p>Fragrances</p>
+                                                <p>Lipsticks</p>
+                                            </div>
+                                            <div className="col" style={{ marginLeft: '2rem', lineHeight: '.5rem', marginRight: '.5rem', fontSize: '.8rem' }}>
+                                                <p style={{ color: 'red', fontSize: '.8rem' }}>Gadgets</p>
+                                                <p>Speaker</p>
+                                                <p>Headphones</p>
+                                                <p>Fitness gadgets</p>
+                                                <p>watches</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="dropdown">
+                                    <span>KIDS</span>
+                                    <div class="dropdown-content">
+                                        <div className="row" style={{ display: 'flex', flexDirection: 'row' }}>
+                                            <div className="col" style={{ marginLeft: '.5rem', lineHeight: '.5rem', fontSize: '.8rem' }}>
+                                                <p style={{ color: 'red', fontSize: '.8rem' }}>Topwear</p>
+                                                <p>FormalShirt</p>
+                                                <p>casualShirt</p>
+                                                <p>TShirt</p>
+                                                <p>tops</p>
+                                            </div>
+                                            <div className="col" style={{ marginLeft: '2rem', lineHeight: '.5rem', fontSize: '.8rem' }}>
+                                                <p style={{ color: 'red', fontSize: '.8rem' }}>Bottomwear</p>
+                                                <p>Jeans</p>
+                                                <p>shorts</p>
+                                                <p>Trousers</p>
+                                                <p>Shirt</p>
+                                            </div>
+                                            <div className="col" style={{ marginLeft: '2rem', lineHeight: '.5rem', fontSize: '.8rem' }}>
+                                                <p style={{ color: 'red', fontSize: '.8rem' }}>footwear</p>
+                                                <p>Formalshoes</p>
+                                                <p>Flats</p>
+                                                <p>Heels</p>
+                                                <p>Boots</p>
+                                            </div>
+                                            <div className="col" style={{ marginLeft: '2rem', lineHeight: '.5rem', fontSize: '.8rem' }}>
+                                                <p style={{ color: 'red', fontSize: '.8rem' }}>Beauty and personalcare</p>
+                                                <p>Makeup</p>
+                                                <p>Skincare</p>
+                                                <p>Fragrances</p>
+                                                <p>Lipsticks</p>
+                                            </div>
+                                            <div className="col" style={{ marginLeft: '2rem', lineHeight: '.5rem', marginRight: '.5rem', fontSize: '.8rem' }}>
+                                                <p style={{ color: 'red', fontSize: '.8rem' }}>Gadgets</p>
+                                                <p>Speaker</p>
+                                                <p>Headphones</p>
+                                                <p>Fitness gadgets</p>
+                                                <p>watches</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="dropdown">
+                                    <span>HOME AND LIVING</span>
+                                    <div class="dropdown-content">
+                                        <div className="row" style={{ display: 'flex', flexDirection: 'row' }}>
+                                            <div className="col" style={{ marginLeft: '.5rem', lineHeight: '.5rem', fontSize: '.8rem' }}>
+                                                <p style={{ color: 'red', fontSize: '.8rem' }}>Topwear</p>
+                                                <p>FormalShirt</p>
+                                                <p>casualShirt</p>
+                                                <p>TShirt</p>
+                                                <p>tops</p>
+                                            </div>
+                                            <div className="col" style={{ marginLeft: '2rem', lineHeight: '.5rem', fontSize: '.8rem' }}>
+                                                <p style={{ color: 'red', fontSize: '.8rem' }}>Bottomwear</p>
+                                                <p>Jeans</p>
+                                                <p>shorts</p>
+                                                <p>Trousers</p>
+                                                <p>Shirt</p>
+                                            </div>
+                                            <div className="col" style={{ marginLeft: '2rem', lineHeight: '.5rem', fontSize: '.8rem' }}>
+                                                <p style={{ color: 'red', fontSize: '.8rem' }}>footwear</p>
+                                                <p>Formalshoes</p>
+                                                <p>Flats</p>
+                                                <p>Heels</p>
+                                                <p>Boots</p>
+                                            </div>
+                                            <div className="col" style={{ marginLeft: '2rem', lineHeight: '.5rem', fontSize: '.8rem' }}>
+                                                <p style={{ color: 'red', fontSize: '.8rem' }}>Beauty and personalcare</p>
+                                                <p>Makeup</p>
+                                                <p>Skincare</p>
+                                                <p>Fragrances</p>
+                                                <p>Lipsticks</p>
+                                            </div>
+                                            <div className="col" style={{ marginLeft: '2rem', lineHeight: '.5rem', marginRight: '.5rem', fontSize: '.8rem' }}>
+                                                <p style={{ color: 'red', fontSize: '.8rem' }}>Gadgets</p>
+                                                <p>Speaker</p>
+                                                <p>Headphones</p>
+                                                <p>Fitness gadgets</p>
+                                                <p>watches</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="dropdown">
+                                    <span>BEAUTY</span>
+                                    <div class="dropdown-content">
+                                        <div className="row" style={{ display: 'flex', flexDirection: 'row' }}>
+                                            <div className="col" style={{ marginLeft: '.5rem', lineHeight: '.5rem', fontSize: '.8rem' }}>
+                                                <p style={{ color: 'red', fontSize: '.8rem' }}>Topwear</p>
+                                                <p>Formal Shirt</p>
+                                                <p>casualShirt</p>
+                                                <p>TShirt</p>
+                                                <p>tops</p>
+                                            </div>
+                                            <div className="col" style={{ marginLeft: '2rem', lineHeight: '.5rem', fontSize: '.8rem' }}>
+                                                <p style={{ color: 'red', fontSize: '.8rem' }}>Bottomwear</p>
+                                                <p>Jeans</p>
+                                                <p>shorts</p>
+                                                <p>Trousers</p>
+                                                <p>Shirt</p>
+                                            </div>
+                                            <div className="col" style={{ marginLeft: '2rem', lineHeight: '.5rem', fontSize: '.8rem' }}>
+                                                <p style={{ color: 'red', fontSize: '.8rem' }}>footwear</p>
+                                                <p>Formalshoes</p>
+                                                <p>Flats</p>
+                                                <p>Heels</p>
+                                                <p>Boots</p>
+                                            </div>
+                                            <div className="col" style={{ marginLeft: '2rem', lineHeight: '.5rem', fontSize: '.8rem' }}>
+                                                <p style={{ color: 'red', fontSize: '.8rem' }}>Beauty and personalcare</p>
+                                                <p>Makeup</p>
+                                                <p>Skincare</p>
+                                                <p>Fragrances</p>
+                                                <p>Lipsticks</p>
+                                            </div>
+                                            <div className="col" style={{ marginLeft: '2rem', lineHeight: '.5rem', marginRight: '.5rem', fontSize: '.8rem' }}>
+                                                <p style={{ color: 'red', fontSize: '.8rem' }}>Gadgets</p>
+                                                <p>Speaker</p>
+                                                <p>Headphones</p>
+                                                <p>Fitnessgadgets</p>
+                                                <p>watches</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="dropdown">
+                                    <span>STUDIO</span>
+                                    <div class="dropdown-content">
+                                        <div className="row" >
+                                            <Studio/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li style={{ color: 'red', fontSize: '.5rem', margin: '0', marginTop: '-8px' }}><a herf='#'>NEW</a>
+
+                                {/* <div className="dropdown">
+                                    <Studio />
+                                </div> */}
+                            </li>
                         </ul>
 
                     </div>
@@ -69,10 +273,10 @@ export const Navbar = () => {
                         <div className="row" style={{ display: 'flex', flexDirection: 'row' }}>
                             <div className="col">
 
-                                <div className="srhbar" style={{ marginLeft: '2rem', marginTop: '1rem' }}>
+                                <div className="srhbar" style={{ marginLeft: '1rem', marginTop: '1rem' }}>
                                     <div>
                                         {/* <MagnifyingGlassIcon style={{ width: '2rem', height: '2rem', marginright: '.3rem' }} /> */}
-                                        <input type="text" name="search" id="search" placeholder="Search for products,brands and more " style={{ width: '25rem', height: '1.5rem', borderRadius: '2px' }} />
+                                        <input type="text" name="search" id="search" placeholder="Search for products,brands and more " style={{ width: '25rem', height: '2rem', borderRadius: '10px' }} />
                                     </div>
                                 </div>
                             </div>
@@ -80,7 +284,7 @@ export const Navbar = () => {
                             <div className="col">
                                 <div>
                                     <UserIcon style={{ width: '1.2rem', height: '2rem', marginLeft: '2rem', marginTop: '1rem' }} /><br />
-                                    <span style={{ marginLeft: '1rem' }}>Profile</span>
+                                    <span style={{ marginLeft: '1rem', marginTop: '-1rem', fontSize: '.8rem' }}>Profile</span>
                                 </div>
                             </div>
                         </div>
@@ -89,44 +293,25 @@ export const Navbar = () => {
                             <div className="col">
                                 <div>
                                     <HeartIcon style={{ width: '1.2rem', height: '2rem', marginLeft: '1.7rem', marginTop: '1rem' }} /><br />
-                                    <span style={{ marginLeft: '1rem' }}>Wishlist</span>
+                                    <div className="col">
+                                        <span style={{ marginLeft: '1rem', fontSize: '.8rem' }}>Wishlist</span>
+                                    </div>
                                 </div>
                             </div>
+
                             <div className="col">
                                 <div>
                                     <ShoppingBagIcon style={{ width: '1.2rem', height: '2rem', marginLeft: '1.5rem', marginTop: '1rem' }} /><br />
-                                    <span style={{ marginLeft: '1.5rem' }}>Bag</span>
+                                    <span style={{ marginLeft: '1.5rem', fontSize: '.8rem' }}>Bag</span>
                                 </div>
                             </div>
+
                         </div>
+
                     </div>
                 </div>
             </div>
-            <div className="men" >
-                <div className="row" style={{ display: 'flex', flexDirection: 'row', marginLeft: '2rem' }}>
-
-                    <div className="col">
-                        <h6>Topwear</h6>
-                    </div>
-
-                    <div className="col" style={{ marginLeft: '1.5rem' }}>
-                        <h6>bottomwear</h6>
-                    </div>
-
-                    <div className="col" style={{ marginLeft: '1.5rem' }}>
-                        <h6>Footwear</h6>
-                    </div>
-
-                    <div className="col" style={{ marginLeft: '1.5rem' }}>
-                        <h6>Active and sportswear</h6>
-                    </div>
-
-                    <div className="col" style={{ marginLeft: '1.5rem' }}>
-                        <h6>Fashion accessories</h6>
-                    </div>
-
-                </div>
-            </div>
+<Footer/>
         </>
     )
 }
