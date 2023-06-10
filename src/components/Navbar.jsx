@@ -1,10 +1,12 @@
 import React from 'react'
 import logo from '../assets/logo.png'
 import { Studio } from './Studio'
-import { Footer} from './Footer'
+// import { Footer} from './Footer'
 import { UserIcon } from '@heroicons/react/24/outline'
 import { HeartIcon } from '@heroicons/react/24/outline'
 import { ShoppingBagIcon } from '@heroicons/react/24/outline'
+
+
 // import { MagnifyingGlassIcon } from '@heroicons/react/24/solid'
 
 import '../styles/navbar.scss'
@@ -311,7 +313,7 @@ export const Navbar = () => {
                     </div>
                 </div>
             </div>
-<Footer/>
+{/* <Footer/> */}
         </>
     )
 }
