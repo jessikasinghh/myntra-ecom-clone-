@@ -2,6 +2,8 @@ import React from 'react'
 import logo from '../assets/logo.png'
 import { Studio } from './Studio'
 // import { Footer} from './Footer'
+// import { Womensection } from './Womensection'
+// import { LoginPage } from './LoginPage'
 import { UserIcon } from '@heroicons/react/24/outline'
 import { HeartIcon } from '@heroicons/react/24/outline'
 import { ShoppingBagIcon } from '@heroicons/react/24/outline'
@@ -314,6 +316,8 @@ export const Navbar = () => {
                 </div>
             </div>
 {/* <Footer/> */}
+{/* <Womensection/> */}
+{/* <LoginPage/> */}
         </>
     )
 }
