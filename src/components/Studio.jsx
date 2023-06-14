@@ -14,7 +14,7 @@ export const Studio = () => {
                 <div className="col" >
                     <a href='/'><img src={stbanner} alt='stbanner' style={{ width: '30rem', height: '16rem' }} /></a>
                 </div>
-                <button class="btn" style={{ backgroundColor: 'white', height:'2.5rem',width:'12rem',marginTop: '1rem', marginBottom: '.8rem' }}>EXPLORE STUDIO</button>
+                <button class="btn" style={{ backgroundColor: 'white', height:'2.5rem',width:'12rem',marginTop: '1rem', marginBottom: '.8rem',marginLeft:'13.5rem' }}>EXPLORE STUDIO</button>
             </div>
         </>
     )

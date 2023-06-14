@@ -7,8 +7,8 @@ export const LoginPage = () => {
         <>
             <div>
             <a href='/'><img src={login} alt='login' /></a>
-             
             </div>
+            
             <div className="row">
             <Footer/>
             </div>

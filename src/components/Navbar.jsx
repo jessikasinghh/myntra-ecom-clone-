@@ -30,7 +30,7 @@ export const Navbar = () => {
                     <div className="col" style={{ textAlign: 'center' ,marginLeft:'-39rem' , marginTop:'1.5rem'}}>
 
                         <ul className="navlst" style={{ color: 'black', textDecoration: 'none', listStyle: 'none', lineHeight: '2rem', display: 'flex', marginLeft: '1rem', textAlign: 'left' }} >
-                            <li >
+                            <li className='navtitle' >
                                 <div class="dropdown">
                                     <span>MEN</span>
                                     <div class="dropdown-content">
@@ -75,7 +75,7 @@ export const Navbar = () => {
                                 </div>
                             </li>
 
-                            <li>
+                            <li className='navtitle'>
                                 <div class="dropdown">
                                     <span>WOMEN</span>
                                     <div class="dropdown-content">
@@ -120,7 +120,7 @@ export const Navbar = () => {
                                 </div>
                             </li>
 
-                            <li>
+                            <li className='navtitle'>
                                 <div class="dropdown">
                                     <span>KIDS</span>
                                     <div class="dropdown-content">
@@ -165,7 +165,7 @@ export const Navbar = () => {
                                 </div>
                             </li>
 
-                            <li>
+                            <li className='navtitle'>
                                 <div class="dropdown">
                                     <span>HOME AND LIVING</span>
                                     <div class="dropdown-content">
@@ -210,7 +210,7 @@ export const Navbar = () => {
                                 </div>
                             </li>
 
-                            <li>
+                            <li className='navtitle'>
                                 <div class="dropdown">
                                     <span>BEAUTY</span>
                                     <div class="dropdown-content">
@@ -255,7 +255,7 @@ export const Navbar = () => {
                                 </div>
                             </li>
 
-                            <li>
+                            <li className='navtitle'>
                                 <div class="dropdown">
                                     <span>STUDIO</span>
                                     <div class="dropdown-content">
