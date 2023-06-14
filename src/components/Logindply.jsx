@@ -1,16 +1,30 @@
+
 import React from 'react'
+
 
 export const Logindply = () => {
     return (
         <>
-            <div>
+            <div style={{ textAlign: "left" }}>
                 <p style={{ fontSize: '1rem' }}>WELCOME</p>
-                <p>To access account and manage orders</p>
+                <p style={{marginTop:'0rem'}}>To access account and manage orders</p>
                 <div>
-                    <input type="text" name="search" id="search" placeholder="LOGIN / SIGNUP" style={{ width: '25rem', height: '2rem', borderRadius: '10px' }} />
-                    <Button variant="light">Light</Button>{' '}
-
+                 <button>LOGIN/SIGNUP</button>
                 </div>
+
+                    <div style={{textAlign:'left' }}>
+                        <ul>
+                            <li >OVERVIEW</li>
+                            <li >Orders & Returns</li>
+                            <li >Profile</li>
+                            <li >Saves Cards</li>
+                            <li >Addresses</li>
+                            <li >Myntra Insider</li>
+                            <li >Terms of Use</li>
+                            <li >Privacy Policy</li>
+                        </ul>
+                    </div>
+
             </div>
         </>
     )

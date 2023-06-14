@@ -5,7 +5,7 @@ import stbanner from'../assets/sudio-nav-banner.png'
 export const Studio = () => {
     return (
         <>
-            <div className="row" style={{ textAlign: 'center', marginTop: '.5rem' }}>
+            <div className="row" style={{ textAlign:'center', marginTop: '.5rem' }}>
 
                 <div className="col" >
                     <a href='/'><img src={stlogo} alt='stlogo' style={{ width: '6rem', height: '2rem' }} /></a>

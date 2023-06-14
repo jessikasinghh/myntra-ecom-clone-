@@ -8,32 +8,57 @@ import banner6 from '../assets/banner6.webp'
 
 import Carousel from 'react-bootstrap/Carousel';
 
-import '../styles/carousel.scss'
+
 export const Carouselpage = () => {
     return (
 
         <Carousel>
-            <Carousel.Item interval={1000}>
+            <Carousel.Item interval={5000}>
                 <img
                     className="d-block w-100"
                     src={banner6}
-                    alt="First slide"
+                    // alt="First slide"
+                    
                 />
 
             </Carousel.Item>
-            <Carousel.Item interval={500}>
+            <Carousel.Item interval={5000}>
                 <img
                     className="d-block w-100"
-                    src={banner4}
-                    alt="Second slide"
+                    src={banner5}
+                    // alt="Second slide"
                 />
 
             </Carousel.Item>
-            <Carousel.Item>
+            <Carousel.Item interval={5000}>
                 <img
                     className="d-block w-100"
                     src={banner4}
-                    alt="Third slide"
+                    // alt="Third slide"
+                />
+
+            </Carousel.Item>
+            <Carousel.Item interval={5000}>
+                <img
+                    className="d-block w-100"
+                    src={banner3}
+                    // alt="Third slide"
+                />
+
+            </Carousel.Item>
+            <Carousel.Item interval={5000}>
+                <img
+                    className="d-block w-100"
+                    src={banner2}
+                    // alt="Third slide"
+                />
+
+            </Carousel.Item>
+            <Carousel.Item interval={5000}>
+                <img
+                    className="d-block w-100"
+                    src={banner1}
+                    // alt="Third slide"
                 />
 
             </Carousel.Item>

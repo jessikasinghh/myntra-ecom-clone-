@@ -9,7 +9,7 @@ export const Footer = () => {
     return (
         <>
             <div className="row" style={{ display: 'flex', flexDirection: 'row' }}>
-                <div className="col" style={{ textAlign: 'left', marginLeft: '8rem' }}>
+                <div className="col" style={{ textAlign: 'left', marginLeft: '4rem' }}>
                     <div className="row">
 
                         <ul className="online shopping" style={{ color: 'black', textDecoration: 'none', listStyle: 'none', lineHeight: '1rem', fontSize: '.8rem', marginLeft: '0rem' }}>
@@ -68,11 +68,11 @@ export const Footer = () => {
                         </div>
                     </div>
                     <div className="row" style={{ marginTop: '.5rem' }}>
-                    <b style={{ fontSize: '.7rem' }}>KEEP IN TOUCH</b>
+                        <b style={{ fontSize: '.7rem' }}>KEEP IN TOUCH</b>
                         <div style={{ marginTop: '1rem' }}>
-                            <a href='/'><img src={icons} alt='icons' style={{ width: '8.5rem', height: '7.5rem', marginTop:'-3.5rem' }} /></a>
+                            <a href='/'><img src={icons} alt='icons' style={{ width: '8.5rem', height: '7.5rem', marginTop: '-3.5rem' }} /></a>
                         </div>
-                        
+
                     </div>
                 </div>
 
@@ -92,11 +92,21 @@ export const Footer = () => {
                             <b> Return within 30days</b>
                             <span className="fontor">of <br />receiving your order</span>
                         </div>
-
                     </div>
                 </div>
-
-
+            </div>
+            <div className="row">
+                <p style={{ marginBottom: '0rem' ,marginLeft:'6rem',marginRight:'1rem' , textAlign:'left' , width:'74rem',fontSize: '.9rem' }}>
+                    Makeup | Dresses For Girls | T-Shirts | Sandals | Headphones | Babydolls
+                    | Blazers For Men | Handbags | Ladies Watches | Bags | Sport Shoes |
+                    Reebok Shoes | Puma Shoes | Boxers | Wallets | Tops | Earrings |
+                    Fastrack Watches | Kurtis | Nike | Smart Watches | Titan Watches |
+                    Designer Blouse | Gowns | Rings | Cricket Shoes | Forever 21 | Eye
+                    Makeup | Photo Frames | Punjabi Suits | Bikini | Myntra Fashion Show |
+                    Lipstick | Saree | Watches | Dresses | Lehenga | Nike Shoes | Goggles |
+                    Bras | Suit | Chinos | Shoes | Adidas Shoes | Woodland Shoes | Jewellery
+                    | Designers Sarees
+                    </p>
             </div>
         </>
     )

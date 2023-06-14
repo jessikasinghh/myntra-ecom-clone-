@@ -1,4 +1,5 @@
 import React from 'react'
+import { Footer } from './Footer'
 // import homebanner from '../assets/homebanner.png'
 import homebanner2 from '../assets/homebanner2.png'
 import a1 from '../assets/a1.webp'
@@ -66,7 +67,7 @@ export const Home = () => {
         {/* <a href='/'><img src={homebanner} alt='homebanner' /></a> */}
         <Carouselpage />
       </div>
-      <div className="col" style={{ textAlign: 'center', marginTop: '.5rem' }}>
+      <div className="col" style={{ textAlign: 'center', marginTop: '2.5rem' }}>
         <a href='/'><img src={homebanner2} alt='homebanner2' /></a>
       </div>
       <div className="row">
@@ -98,7 +99,7 @@ export const Home = () => {
       </div>
       <div className="row" style={{ textAlign: 'center' }}>
         <h1 style={{ fontSize: '3.5rem', color: '#fb3737' }}>WORDROBE ESSINTIAL</h1>
-        <p style={{ fontSize: '1.8rem', marginTop: '-2rem', fontWeight: 'inherit' }}>It's Time To Refresh Your Closet!</p>
+        <p style={{ fontSize: '1.8rem', marginTop: '-1rem', fontWeight: 'inherit' }}>It's Time To Refresh Your Closet!</p>
         <div className="col" style={{ display: 'flex', flexDirection: 'row' }}>
           <a href='/'><img src={d1} alt='d1' style={{ width: '10.4rem', height: '15rem' }} /></a>
           <a href='/'><img src={d2} alt='d2' style={{ width: '10.4rem', height: '15rem' }} /></a>
@@ -111,20 +112,20 @@ export const Home = () => {
         </div>
       </div>
       <div className="row" style={{ textAlign: 'left' }}>
-        <h1 style={{ fontSize: '2.3rem', color: 'black' }}>TOP PICKS</h1>
-        <div style={{marginLeft:'2.5rem'}}>
-        <a href='/'><img src={b1} alt='b1' style={{ width: '10.4rem', height: '13rem' }} /></a>
-        <a href='/'><img src={b2} alt='b2' style={{ width: '10.4rem', height: '13rem'  , marginLeft:'1rem'}} /></a>
-        <a href='/'><img src={b3} alt='b3' style={{ width: '10.4rem', height: '13rem' ,marginLeft:'1rem'}} /></a>
-        <a href='/'><img src={b4} alt='b4' style={{ width: '10.4rem', height: '13rem' ,marginLeft:'1rem'}} /></a>
-        <a href='/'><img src={b5} alt='b5' style={{ width: '10.4rem', height: '13rem' ,marginLeft:'1rem'}} /></a>
-        <a href='/'><img src={b6} alt='b6' style={{ width: '10.4rem', height: '13rem' ,marginLeft:'1rem'}} /></a>
-        <a href='/'><img src={b7} alt='b7' style={{ width: '10.4rem', height: '13rem' ,marginLeft:'1rem'}} /></a>
+        <h1 style={{ fontSize: '2.3rem', color: 'black', marginTop: '1rem' }}>TOP PICKS</h1>
+        <div style={{ marginLeft: '2.5rem' }}>
+          <a href='/'><img src={b1} alt='b1' style={{ width: '10.4rem', height: '13rem' }} /></a>
+          <a href='/'><img src={b2} alt='b2' style={{ width: '10.4rem', height: '13rem', marginLeft: '1rem' }} /></a>
+          <a href='/'><img src={b3} alt='b3' style={{ width: '10.4rem', height: '13rem', marginLeft: '1rem' }} /></a>
+          <a href='/'><img src={b4} alt='b4' style={{ width: '10.4rem', height: '13rem', marginLeft: '1rem' }} /></a>
+          <a href='/'><img src={b5} alt='b5' style={{ width: '10.4rem', height: '13rem', marginLeft: '1rem' }} /></a>
+          <a href='/'><img src={b6} alt='b6' style={{ width: '10.4rem', height: '13rem', marginLeft: '1rem' }} /></a>
+          <a href='/'><img src={b7} alt='b7' style={{ width: '10.4rem', height: '13rem', marginLeft: '1rem' }} /></a>
         </div>
       </div>
       <div className="row" style={{ textAlign: 'left' }}>
         <h1 style={{ fontSize: '2.3rem', color: 'black' }}>CATEGORIES TO BAG</h1>
-        <div className="col">
+        <div className="col" style={{ display: 'flex', flexDirection: 'row' }} >
           <a href='/'><img src={c1} alt='c1' style={{ width: '10.4rem', height: '13rem' }} /></a>
           <a href='/'><img src={c2} alt='c2' style={{ width: '10.4rem', height: '13rem' }} /></a>
           <a href='/'><img src={c3} alt='c3' style={{ width: '10.4rem', height: '13rem' }} /></a>
@@ -134,7 +135,7 @@ export const Home = () => {
           <a href='/'><img src={c7} alt='c7' style={{ width: '10.4rem', height: '13rem' }} /></a>
           <a href='/'><img src={c8} alt='c8' style={{ width: '10.4rem', height: '13rem' }} /></a>
         </div>
-        <div className="col">
+        <div className="col" style={{ display: 'flex', flexDirection: 'row' }}>
           <a href='/'><img src={c9} alt='c9' style={{ width: '10.4rem', height: '13rem' }} /></a>
           <a href='/'><img src={c10} alt='c10' style={{ width: '10.4rem', height: '13rem' }} /></a>
           <a href='/'><img src={c11} alt='c11' style={{ width: '10.4rem', height: '13rem' }} /></a>
@@ -145,7 +146,7 @@ export const Home = () => {
           <a href='/'><img src={c16} alt='c16' style={{ width: '10.4rem', height: '13rem' }} /></a>
         </div>
 
-        <div className="col">
+        <div className="col" style={{ display: 'flex', flexDirection: 'row' }}>
           <a href='/'><img src={c17} alt='c17' style={{ width: '10.4rem', height: '13rem' }} /></a>
           <a href='/'><img src={c18} alt='c18' style={{ width: '10.4rem', height: '13rem' }} /></a>
           <a href='/'><img src={c19} alt='c19' style={{ width: '10.4rem', height: '13rem' }} /></a>
@@ -155,6 +156,9 @@ export const Home = () => {
           <a href='/'><img src={c23} alt='c23' style={{ width: '10.4rem', height: '13rem' }} /></a>
           <a href='/'><img src={c24} alt='c24' style={{ width: '10.4rem', height: '13rem' }} /></a>
         </div>
+      </div>
+      <div className="row">
+        <Footer />
       </div>
     </>
   )
